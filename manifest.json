@@ -3,7 +3,6 @@
       "description": "ai-powered email reply generator",
       "version": "1.0",
       "manifest_version": 3,
-      "permissions": ["activeTab"],
       "host_permissions": [
           "https://localhost:8080/*",
           "*://mail.google.com/*"
