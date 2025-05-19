@@ -68,7 +68,7 @@ function injectButton() {
             button.disabled = true;
 
             const emailContent = getEmailContent();
-            const response = await fetch('https://painful-liesa-rodri-labs-59600ce7.koyeb.app/api/email/generate', {
+            const response = await fetch('https://yelping-maxine-arrivaldo-e1c4a527.koyeb.app/api/email/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
